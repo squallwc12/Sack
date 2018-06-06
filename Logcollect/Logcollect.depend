@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1526895650 source:d:\forself\codeblocks\logcollect\logcollect\broker.c
+
+1526895662 source:d:\forself\codeblocks\logcollect\logcollect\indexer.c
+
+1527036237 source:d:\forself\codeblocks\logcollect\logcollect\shipper.c
+	"Logcollect.h"
+	<stdarg.h>
+
+1527035321 d:\forself\codeblocks\logcollect\logcollect\logcollect.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Logcollect_type.h"
+	"Logcollect_config.h"
+
+1526902067 source:c:\user file\logcollect\logcollect\broker.c
+
+1526902067 source:c:\user file\logcollect\logcollect\indexer.c
+
+1526905239 source:c:\user file\logcollect\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Logcollect.h"
+
+1526905211 c:\user file\logcollect\logcollect\logcollect.h
+	<stdio.h>
+	<stdlib.h>
+
+1526903910 source:c:\user file\logcollect\logcollect\shipper.c
+	"Logcollect.h"
+
+1527035384 d:\forself\codeblocks\logcollect\logcollect\logcollect_type.h
+
+1527034904 source:d:\forself\codeblocks\logcollect\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<pthread.h>
+	"Logcollect.h"
+
+1526980542 d:\forself\codeblocks\logcollect\logcollect\logcollect_config.h
+
+1527035321 source:d:\forself\codeblocks\logcollect\logcollect\strlcpy.c
+	<stdio.h>
+	<stdlib.h>
+
+1528256450 source:d:\forself\iar\test01\logcollect\logcollect\broker.c
+	"Logcollect.h"
+	<stdarg.h>
+
+1527833504 source:d:\forself\iar\test01\logcollect\logcollect\indexer.c
+	"Logcollect.h"
+
+1528256611 source:d:\forself\iar\test01\logcollect\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<pthread.h>
+	"Logcollect.h"
+
+1528256010 d:\forself\iar\test01\logcollect\logcollect\logcollect.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Logcollect_type.h"
+	"Logcollect_config.h"
+
+1528273062 d:\forself\iar\test01\logcollect\logcollect\logcollect_type.h
+	"Logcollect_config.h"
+
+1528276613 d:\forself\iar\test01\logcollect\logcollect\logcollect_config.h
+
+1527074105 source:d:\forself\iar\test01\logcollect\logcollect\strlcpy.c
+	<stdio.h>
+	<stdlib.h>
+
+1528190054 source:d:\forself\iar\test01\logcollect\logcollect\shipper.c
+	"Logcollect.h"
+	<stdarg.h>
+
