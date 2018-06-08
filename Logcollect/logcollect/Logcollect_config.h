@@ -10,7 +10,6 @@
   *
   * <h2><center>&copy; Logcollect system </center></h2>
   *
-  *        https://github.com/squallwc12/Logcollect.git
   *
   ******************************************************************************
   */

@@ -79,3 +79,33 @@
 	"Logcollect.h"
 	<stdarg.h>
 
+1528271428 source:d:\forself\iar\sack\logcollect\logcollect\indexer.c
+	"Logcollect.h"
+
+1528350582 d:\forself\iar\sack\logcollect\logcollect\logcollect.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Logcollect_type.h"
+	"Logcollect_config.h"
+
+1528350582 d:\forself\iar\sack\logcollect\logcollect\logcollect_type.h
+	"Logcollect_config.h"
+
+1528350582 d:\forself\iar\sack\logcollect\logcollect\logcollect_config.h
+
+1528260558 source:d:\forself\iar\sack\logcollect\logcollect\shipper.c
+	"Logcollect.h"
+	<stdarg.h>
+
+1528268405 source:d:\forself\iar\sack\logcollect\logcollect\strlcpy.c
+	<stdio.h>
+	<stdlib.h>
+
+1528256611 source:d:\forself\iar\sack\logcollect\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<pthread.h>
+	"Logcollect.h"
+

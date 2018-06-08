@@ -325,6 +325,7 @@
           <state>$PROJ_DIR$\minilzo\Source</state>
           <state>$PROJ_DIR$\bsp</state>
           <state>$PROJ_DIR$\Logcollect\logcollect</state>
+          <state>$PROJ_DIR$\ReportForm\ReportForm</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -647,7 +648,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>led.d43</state>
+          <state>Sack.d43</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -841,7 +842,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>led.a43</state>
+          <state>Sack.a43</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1987,6 +1988,12 @@
     </file>
     <file>
       <name>$PROJ_DIR$\Logcollect\logcollect\strlcpy.c</name>
+    </file>
+  </group>
+  <group>
+    <name>ReportForm</name>
+    <file>
+      <name>$PROJ_DIR$\ReportForm\ReportForm\FormFormat.c</name>
     </file>
   </group>
   <file>

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1528444824 source:d:\forself\iar\sack\reportform\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ReportForm.h"
+
+1528443408 source:d:\forself\iar\sack\reportform\reportform\list.c
+	"ReportForm.h"
+
+1528444824 d:\forself\iar\sack\reportform\reportform\reportform.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ReportForm_typedef.h"
+
+1528445267 d:\forself\iar\sack\reportform\reportform\reportform_typedef.h
+	"ReportForm_config.h"
+
+1528368806 d:\forself\iar\sack\reportform\reportform\reportform_config.h
+	<limits.h>
+
+1528444824 source:d:\forself\iar\sack\reportform\reportform\formformat.c
+	"ReportForm.h"
+

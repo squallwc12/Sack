@@ -10,6 +10,7 @@
 #include "bsp.h"
 
 #include "Logcollect.h"
+#include "ReportForm.h"
 
 void vRegTest1Task( void *pvParameters );
 void vRegTest2Task( void *pvParameters );
@@ -83,12 +84,21 @@ int main( void )
 /*≤‚ ‘»ŒŒÒ*/
 void vRegTest1Task( void *pvParameters )
 {
+  value_Typedef data;
+  
+  Report_DeInit();
+  data.DataType = Float;
+  data.data.floatType= 3.315;
+  Report_SetEntry(&Report_test, 2, &data);
+      
   for(;;)
   {
     broker_sorting();
     
     indexer_NormEventProcess();
     indexer_EmrgEventProcess();
+    
+    Report_print((CB_print)broker_superme_printf, &Report_test, PEPORT_ALL_ENTRY);
   }
 }
 
@@ -117,7 +127,7 @@ void vRegTest2Task( void *pvParameters )
         vTaskDelay(1);
     };
     
-    vTaskDelay(20);
+    vTaskDelay(100);
   }
 }
 
@@ -139,7 +149,7 @@ void vRegTest3Task( void *pvParameters )
         vTaskDelay(1);
     };
     
-    vTaskDelay(20);
+    vTaskDelay(100);
   }
 }
 
@@ -161,7 +171,7 @@ void vRegTest4Task( void *pvParameters )
         vTaskDelay(1);
     };
     
-    vTaskDelay(20);
+    vTaskDelay(100);
   }
 }
 

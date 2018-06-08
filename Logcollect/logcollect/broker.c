@@ -506,10 +506,11 @@ void broker_CB_EmrgQueueOverflow(void (*pFuntion)(Logcollect_Type *))
   */
 ucBool broker_printf(cpLOGStr format, ...)
 {
-    va_list   vArgList;
     ucBool    reBool = false;
     
 #if (USE_BROKER_PRINT != 0)
+    va_list   vArgList;
+        
     if(WaitPrintLock(PriorityLowest) == false){
         va_start(vArgList, format);
         vprintf(format, vArgList);
@@ -527,4 +528,26 @@ ucBool broker_printf(cpLOGStr format, ...)
 #endif
     
     return reBool;
+}
+
+/**
+  * @brief  broker_superme_printf printf str thread-safe
+  * @param  format    : string
+  *         ...       : parameter
+  * @retval
+  */
+void broker_superme_printf(cpLOGStr format, ...)
+{
+    va_list   vArgList;
+        
+    if(WaitPrintLock(PrioritySuperme) == false){
+        va_start(vArgList, format);
+        vprintf(format, vArgList);
+        va_end(vArgList);
+        
+        UnlockPrint();
+    }
+    else{
+        WaitPrintString;
+    }
 }

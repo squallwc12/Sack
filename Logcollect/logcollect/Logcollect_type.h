@@ -10,7 +10,6 @@
   *
   * <h2><center>&copy; Logcollect system </center></h2>
   *
-  *        https://github.com/squallwc12/Logcollect.git
   *
   ******************************************************************************
   */
@@ -83,8 +82,8 @@ typedef enum{
 }ucLogLevel;
 
 /*
-    event format - 
-    StdID : Standard event identifier 
+    event format -
+    StdID : Standard event identifier
     data  : Extend event identifier
 */
 typedef struct {

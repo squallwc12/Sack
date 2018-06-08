@@ -271,7 +271,7 @@ queue_pull_timeout:
   */
 void shipper_QueueFullCallback(void)
 {
-    printf("shipper queue full\r\n");
+    //printf("shipper queue full\r\n");
 }
 
 /**

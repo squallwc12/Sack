@@ -10,7 +10,6 @@
   *
   * <h2><center>&copy; Logcollect system </center></h2>
   *
-  *        https://github.com/squallwc12/Logcollect.git
   *
   ******************************************************************************
   */
@@ -80,6 +79,7 @@ void broker_CB_EmrgGetNewData(void (*pFuntion)(void));
 void broker_CB_EmrgQueueOverflow(void (*pFuntion)(Logcollect_Type *));
 ucBool CLASS_X_Print(ucLogLevel lvl, Logcollect_Type * log);
 ucBool broker_printf(cpLOGStr format, ...);
+void broker_superme_printf(cpLOGStr format, ...);
 
 /*indexer*/
 ucBool broker_PullEmrgEventFIFO(LogStorage_Type * pEvent);
